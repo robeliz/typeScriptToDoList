@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+Roberto Elizo
+-->
+<html>
+	<head>
+		<title>Test type script</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" >
+		<link href="style.css" rel="stylesheet" >
+		<script src="https://use.fontawesome.com/b9d9ab73de.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4 col-md-offset-4 ">
+					<h1>Probando Type Script</h1><br>
+					<form >
+						<label for="nombre">Nueva Tarea:</label>
+						<input class="form-control" type="text" id="nombre" placeholder="Nombre del programa"><br>
+						<div id="error" class="alert alert-danger display-none" >Introduzca una tarea</div>
+						<button onclick="save(); return false" class="btn btn-primary pull-right" >Guardar</button>
+					</form><br><br>
+					
+					<h4>Listado de tareas</h4>
+					<div id="listado">
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js" ></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+		<script src="main.js"></script>
+		
+	</body>
+</html>
